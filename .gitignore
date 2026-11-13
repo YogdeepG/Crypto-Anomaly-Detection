@@ -1,0 +1,17 @@
+# Python virtual environment
+.venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Environment variables and secrets
+.env
+!.env.example
+
+# Local database
+data/*.db
+
+# macOS files
+.DS_Store

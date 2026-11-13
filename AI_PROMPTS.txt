@@ -1,0 +1,51 @@
+AI PROMPTS USED DURING THE PROJECT
+
+Project: Real-Time Cryptocurrency Market Anomaly Detection Using Apache Kafka
+
+While working on this project, I used AI as a learning and development assistant. I asked for help understanding the different parts of the system, planning the implementation, writing and checking code, and fixing issues that came up during development.
+
+Below are examples of the main prompts and topics I used.
+
+1. PLANNING THE PROJECT
+
+"Help me plan an individual data management project that uses Apache Kafka to detect unusual activity in live cryptocurrency trades. Explain what the system should do, which technologies I could use, and how the different components would work together."
+
+2. GETTING LIVE CRYPTOCURRENCY DATA
+
+"Show me how to connect a Python application to the Binance public WebSocket and receive live BTC/USDT trade data. Explain the messages I receive and how I can prepare them for Kafka."
+
+3. SETTING UP KAFKA
+
+"Guide me through setting up Apache Kafka locally with Docker Compose. Help me create a Python producer and consumer, create the required topics, and send live trade messages through the pipeline."
+
+4. BUILDING THE ANOMALY DETECTOR
+
+"Help me understand and implement statistical methods to identify unusual cryptocurrency trades. I want to check for unusual price movements and unusually large trade volumes using the median, median absolute deviation and robust z-scores. Explain the logic as you go."
+
+5. SAVING THE RESULTS
+
+"Show me how to connect SQLite to my Kafka consumer so that processed trades and anomaly alerts can be saved and viewed later."
+
+6. CREATING THE DASHBOARD
+
+"Help me build a Streamlit dashboard for my cryptocurrency project. I want it to display the latest BTC/USDT price, trade activity, anomaly alerts and a chart of recent price movements."
+
+7. MEASURING PERFORMANCE
+
+"Help me measure how my Kafka pipeline performs. Explain how to calculate the number of processed trades, throughput, average latency, median latency and 95th percentile latency."
+
+8. TESTING AND FIXING ERRORS
+
+"Help me write pytest tests for the producer, anomaly detection functions and processing pipeline. When an error occurs, explain what caused it and guide me through fixing it."
+
+9. CHECKING RELIABILITY
+
+"Explain how I can check whether my Kafka consumer recovers after it is stopped and started again, while the Kafka broker and producer continue running."
+
+10. WRITING THE PROJECT DOCUMENTATION
+
+"Help me organise the project documentation. Include the project overview, business objective, architecture, technologies, setup instructions, how to run the application, anomaly detection approach, test results, performance observations and limitations."
+
+A NOTE ON AI ASSISTANCE
+
+I used AI to help me understand concepts, plan parts of the implementation, work through code, troubleshoot errors and organise the documentation. I reviewed and tested the application in my local development environment. The prompts above are examples summarising the main areas where I used AI assistance; they are not intended to be a word-for-word record of every conversation.
